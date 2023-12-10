@@ -22,3 +22,5 @@ jobs:
       run: npm i
     - name: Test App
       run: npm run test:unit
+    - name: Show SoftUni Username
+      run: echo "ickata2112"
