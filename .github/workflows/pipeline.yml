@@ -20,7 +20,5 @@ jobs:
         cache: 'npm'
     - name: Install Dependencies
       run: npm i
-    - name: Start App
-      run: npm start & sleep 10 &
     - name: Test App
       run: npm run test:unit
